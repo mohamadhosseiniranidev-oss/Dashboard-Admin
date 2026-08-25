@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url('./vazirmatn/Vazirmatn-Medium.ttf');
+}
+
+/* index.css */
+:root {
+  /* پس‌زمینه‌ها */
+  --bg-primary: #0d0d10;
+  --bg-secondary: #0f0f13;
+  --bg-card: #13131a;
+  --bg-hover: #16161c;
+  --bg-input: #16161c;
+
+  /* بوردر */
+  --border: #1e1e26;
+  --border-light: #2a2a32;
+
+  /* اکسنت سبز */
+  --accent: #00c27a;
+  --accent-bg: #0e2318;
+  --accent-border: #1a3a26;
+
+  /* متن */
+  --text-primary: #f0f0f0;
+  --text-secondary: #d0d0d0;
+  --text-muted: #888888;
+  --text-faint: #444444;
+
+  /* رنگ‌های کارت‌های آمار */
+  --stat-blue: #378add;
+  --stat-blue-bg: #0e1f38;
+
+  --stat-orange: #ef9f27;
+  --stat-orange-bg: #2a1a0e;
+
+  --stat-purple: #af99ec;
+  --stat-purple-bg: #1e1226;
+}
+*{
+    
+    font-family: "Vazirmatn" ;
+}
