@@ -1,14 +1,8 @@
-import React from 'react'
-import { RouterProvider, ScrollRestoration } from 'react-router'
-import router from './routes'
-
+import { RouterProvider } from "react-router";
+import router from "./routes";
 
 function App() {
-  return (
-    <RouterProvider router={router}>
-      <ScrollRestoration/>
-    </RouterProvider>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
